@@ -390,7 +390,7 @@ function Mails() {
                 value={apiKey}
                 onChange={(e) => setApiKey(e.target.value)}
                 className="bg-neutral-800 border-neutral-700 text-neutral-100"
-                placeholder="Enter your Google API key"
+                placeholder="Enter your API key"
               />
               <p className="text-xs text-neutral-500">
                 Your API key will be stored locally and used for email classification
